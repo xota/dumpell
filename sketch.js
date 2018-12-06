@@ -29,7 +29,7 @@ let easyStroke = 0
 let song;
 
 function preload() {
-  song = loadSound('music')
+//  song = loadSound('music')
   
   
 }
@@ -37,7 +37,7 @@ function preload() {
 
 function setup() {
   createCanvas(xSize, ySize);
-  song.loop();
+//  song.loop();
 }
 
 function draw() {
